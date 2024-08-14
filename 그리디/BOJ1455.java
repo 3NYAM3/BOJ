@@ -36,6 +36,7 @@ public class BOJ1455 {
                 }
             }
         }
+
         System.out.println(count);
     }
 }
