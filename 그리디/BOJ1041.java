@@ -47,13 +47,14 @@ public class BOJ1041 {
         three = three * 4;
 
         long sum = 0;
+
         if (N == 1) {
             for (long diceNUm : dice) {
-                sum +=diceNUm;
+                sum += diceNUm;
             }
-            System.out.println(sum-max);
-        }else {
-            System.out.println(one+two+three);
+            System.out.println(sum - max);
+        } else {
+            System.out.println(one + two + three);
         }
     }
 }
