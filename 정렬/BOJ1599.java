@@ -17,13 +17,13 @@ public class BOJ1599 {
         for (int i = 0; i < n; i++) {
             words[i] = br.readLine();
             words[i] = words[i].replace('k', 'c');
-            words[i] = words[i].replace("ng", "nz");
+            words[i] = words[i].replace("ng", "n}");
         }
 
         Arrays.sort(words);
 
         for (int i = 0; i < n; i++) {
-            words[i] = words[i].replace("nz", "ng");
+            words[i] = words[i].replace("n}", "ng");
             words[i] = words[i].replace('c', 'k');
         }
 
