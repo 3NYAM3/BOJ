@@ -34,8 +34,6 @@ public class BOJ2138 {
         } else {
             System.out.println(Math.min(press, notPress));
         }
-
-
     }
 
     static int solution(boolean press) {
